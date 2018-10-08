@@ -1,0 +1,37 @@
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title>Perfil</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <img src="https://cache.olhardigital.com.br/uploads/acervo_imagens/2013/12/20131209122019_660_420.jpg">
+  
+<h3>Nome Usuário</h3>
+
+  <ion-list>
+
+      <ion-item>
+        <ion-input type="text" placeholder="Endereço" value="Rua sem asfalto"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-input type="text" placeholder="Cidade" value="Rio de Janeiro"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-input type="text" placeholder="CEP" value="2252-282"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-input type="text" placeholder="Telefone" value="21112-222"></ion-input>
+            </ion-item>
+    
+            </ion-list>
+    <button ion-button block (click)="atualizar()">atualizar</button>
+
+</ion-content>
